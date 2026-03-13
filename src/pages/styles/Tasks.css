@@ -1,0 +1,154 @@
+.tasks-container {
+  background-color: #0b0b12;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 2em;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto 4em auto;
+}
+
+.tasks-add-card {
+  background-color: #151521;
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 40px;
+  border: 1px solid #232332;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #6a6a8a;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.task-input,
+.task-select {
+  width: 100%;
+  background-color: #0b0b12;
+  border: 1px solid #2d2d3d;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+.task-input:focus,
+.task-select:focus {
+  outline: none;
+  border-color: #7d5fff;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.priority-options {
+  display: flex;
+  gap: 8px;
+}
+
+.priority-btn {
+  flex: 1;
+  background-color: #0b0b12;
+  border: 1px solid #2d2d3d;
+  border-radius: 8px;
+  padding: 12px;
+  color: #8a8a9a;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+  width: 9em;
+}
+
+.priority-btn:hover {
+  border-color: #7d5fff;
+  color: #fff;
+}
+
+.add-task-btn {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.2s ease;
+}
+
+.add-task-btn:hover {
+  background-color: #5a4ad1;
+}
+
+.priority-btn:active {
+  background-color: #6c5ce7;
+  border-color: #6c5ce7;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+}
+
+.sort-task {
+  display: flex;
+  gap: 0.5em;
+  margin: 2em;
+}
+
+.filter-btn {
+  background-color: transparent;
+  color: #565666;
+  border: 1px solid #2d2d3d;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active-filter {
+  background-color: #7d5fff;
+  color: white;
+  border-color: #7d5fff;
+  box-shadow: 0 4px 15px rgba(125, 95, 255, 0.3);
+}
+
+.filter-btn:hover:not(.active-filter) {
+  border-color: #565666;
+  color: #a0a0b0;
+}
+
+.priority-btn.active {
+  background-color: #6c5ce7;
+  border-color: #6c5ce7;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+}

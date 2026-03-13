@@ -1,0 +1,46 @@
+.stats-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.stats-dashboard {
+  background-color: #161623;
+  border-radius: 12px;
+  padding: 30px;
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid #1e1e2d;
+}
+
+.stats-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.stats-value {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.stats-des {
+  color: #565666;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.stats-profile {
+  background-color: #0a0a0f;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid #0a0a0f;
+}

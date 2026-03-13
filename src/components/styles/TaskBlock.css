@@ -1,0 +1,132 @@
+.task-card {
+  background-color: #161623;
+  border: 1px solid #232332;
+  border-radius: 16px;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.task-left-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.check-container {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #323245;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.check-container.checked {
+  border-color: #69fbb5;
+  background-color: rgba(105, 251, 181, 0.1);
+}
+
+.check-icon {
+  color: #69fbb5;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.task-text {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.is-done .task-text {
+  text-decoration: line-through;
+  color: #565666;
+}
+
+.badge-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.badge-cat.study {
+  background-color: rgba(86, 142, 255, 0.15);
+  color: #57a0ff;
+}
+
+.badge-cat.work {
+  background-color: rgba(124, 106, 255, 0.15);
+  color: #7c6aff;
+}
+
+.badge-cat.health {
+  background-color: rgba(106, 233, 255, 0.15);
+  color: #6ae9ff;
+}
+
+.badge-pri.high {
+  background-color: rgba(255, 106, 106, 0.15);
+  color: #ff6a6a;
+}
+
+.badge-pri.medium {
+  background-color: rgba(255, 171, 106, 0.15);
+  color: #ffab6a;
+}
+
+.badge-pri.low {
+  background-color: rgba(255, 213, 88, 0.15);
+  color: #ffeb6a;
+}
+
+.task-right-section {
+  display: flex;
+  gap: 12px;
+}
+
+.action-btn {
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  transition: 0.2s;
+}
+
+.btn-done {
+  border: 2px solid #69fbb5;
+  color: #69fbb5;
+}
+
+.btn-undo {
+  border: 2px solid #69fbb5;
+  background-color: rgba(105, 251, 181, 0.1);
+  color: #69fbb5;
+}
+
+.btn-del {
+  border: 2px solid #ff6a6a;
+  color: #ff6a6a;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}

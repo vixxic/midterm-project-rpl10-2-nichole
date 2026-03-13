@@ -1,0 +1,17 @@
+.logout-btn-navbar {
+  background-color: #0a0a0f;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.119);
+  color: white;
+  padding: 0.6em 1em;
+  border-radius: 7px;
+}
+
+.logout-btn-profile {
+  background-color: #0a0a0f;
+  outline: none;
+  border: 1px solid #ff6a6a7e;
+  color: #ff6a6a;
+  padding: 0.6em 1em;
+  border-radius: 7px;
+}
